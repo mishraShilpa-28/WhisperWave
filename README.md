@@ -2,7 +2,11 @@
 
 ## Description
 
-This project is a real-time chat application built following a YouTube tutorial by [Surendrakumarpatel](https://www.youtube.com/watch?v=KGH6z0Z0GXA). It features user authentication, profile management, and real-time messaging using Node.js, Express, MongoDB, React, Redux, Socket.io, and Tailwind CSS with Daisy UI. Users can sign up, log in, update profiles, send/receive messages, search for other users, and log out, with a responsive frontend and secure backend.
+This project is a real-time chat application. It features user authentication, profile management, and real-time messaging using Node.js, Express, MongoDB, React, Redux, Socket.io, and Tailwind CSS with Daisy UI. Users can sign up, log in, update profiles, send/receive messages, search for other users, and log out, with a responsive frontend and secure backend.
+
+### Live Demo
+
+- [Live demo link](https://whisperwave-g6y1.onrender.com)
 
 ## Features
 
@@ -26,48 +30,41 @@ This project is a real-time chat application built following a YouTube tutorial 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Surendrakumarpatel/yt-chat-application.git
+   git clone https://github.com/mishraShilpa-28/WhisperWave.git
    ```
 
-2. Navigate to the project directory:
+2. Navigate to the `root` project directory:
 
    ```bash
-   cd yt-chat-application
+   cd WhisperWave
    ```
 
-3. Install backend dependencies:
+3. Install dependencies:
 
    ```bash
    npm install
    ```
 
-4. Navigate to the frontend directory and install dependencies:
-
-   ```bash
-   cd client
-   npm install
-   ```
-
-5. Set up environment variables:
+4. Set up environment variables:
    - Create a `.env` file in the root directory.
    - Add the following:
 
-     ```env
-     MONGO_URI=your_mongodb_connection_string
-     JWT_SECRET=your_jwt_secret
+     ```bash
+      PORT = 8080
+      MONGO_URI=
+      JWT_SECRET_KEY=
      ```
 
-6. Start the backend server:
+5. Build the app:
+
+   ```bash
+   npm run build
+   ```
+
+6. Start the backend server with frontend:
 
    ```bash
    npm run server
-   ```
-
-7. Start the frontend development server:
-
-   ```bash
-   cd client
-   npm start
    ```
 
 ## Usage
@@ -76,10 +73,6 @@ This project is a real-time chat application built following a YouTube tutorial 
 - Sign up or log in to start chatting.
 - Use the search bar to find other users.
 - Send and receive messages in real-time.
-
-## Tutorial Reference
-
-This project was built by following the YouTube tutorial: [Build a Realtime Chat App](https://www.youtube.com/watch?v=KGH6z0Z0GXA).
 
 ## Contributing
 
